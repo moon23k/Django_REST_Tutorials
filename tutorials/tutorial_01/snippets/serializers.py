@@ -1,4 +1,5 @@
 # This serializers.py works similar to Django's form
+# Serializer convert Django.model data to JSON data type
 
 from rest_framework import serializers
 from snippets.models import Snippet, LANGUAGE_CHOICES, STYLE_CHOICES
